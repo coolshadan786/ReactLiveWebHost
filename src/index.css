@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a{
+  color: #09c0f3;
+}
+a.active_class{
+  color:white;
+  border-bottom: 1px solid red;
+  font-size: 35px;
+}
+
+.menu_style{
+  width: 100%;
+  line-height: 90px;
+  background-color: #404755;
+  display: flex;
+  justify-content: space-around;
+}
+
+.searchbar{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.searchbar input{
+  margin: 30px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.setStyle2{
+  text-align: center;
+}
